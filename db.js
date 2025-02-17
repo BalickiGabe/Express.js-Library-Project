@@ -8,4 +8,8 @@ async function getAuthorById(authorId) {
   return authors.find((author) => author.id === authorId);
 }
 
-module.exports = { getAuthorById };
+async function getAllAruthors() {
+  return authors;
+}
+
+module.exports = { getAuthorById, getAllAruthors };

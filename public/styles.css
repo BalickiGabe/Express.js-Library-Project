@@ -1,0 +1,23 @@
+body {
+  color: blueviolet;
+  background-color: lightpink;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font: 1.2em sans-serif;
+}
+
+footer {
+  color: chocolate;
+  padding: 20px;
+}
